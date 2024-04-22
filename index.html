@@ -9,59 +9,66 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/logo 1.png" type="image/x-icon" width="100%">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <!-- header -->
+    <!-- !header -->
     <header class="header">
-        <div class="logo">
+        <div class="logo" data-aos="fade-right"  data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
           <img src="assets/logo.png" alt="Logo" href="#home">
         </div>
         
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon" data-aos="fade-right"  data-aos-offset="300"
+        data-aos-easing="ease-in-sine"></div>
 
-        <nav>
-            
-            <ul>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#trabalhos">trabalhos</a></li>
-                <li><a href="#contato">contato</a></li>
-            </ul>
+        <nav class="navbar" data-aos="fade-left"  data-aos-offset="300"
+        data-aos-easing="ease-in-sine">  
+      <a href="#home" class="active">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#trabalhos">trabalhos</a>
+                <a href="#contato">contato</a>
+            <span class="active-nav"></spanc>
         </nav>
     </header>
     <main>
         <div class="plano">
-    <!-- 1 -->
+    <!-- !1 -->
     <section class="casa" id="home">
         
-        <div class="titulos" >
-            <h1>CodeCraft: Transformando códigos em obras-primas digitais. </h1>
-            <a href="#"><button>Fale conosco</button></a>
+        <div class="titulos" data-aos="zoom-out" data-aos-offset="300"
+        data-aos-easing="ease-in-sine" >
+            <h1 >CodeCraft: Transformando códigos em obras-primas digitais. </h1>
+            <a href="#contato" ><button data-aos="zoom-out" data-aos-offset="350"
+              data-aos-easing="ease-in-sine">Fale conosco</button></a>
         </div>
         
     </section>
     </div>
-    <!-- 2 -->
+    <!-- !2 -->
     <section class="mim" id="sobre">
         
 <div class="tela">
-    <h1>Sobre mim</h1>
+    <h1 data-aos="zoom-out" data-aos-offset="400"
+    data-aos-easing="ease-in-sine">Sobre mim</h1>
      <div class="card ">
         <div class="image-content">
           <span class="overlay"></span>
-          <div class="card-image">
-              <img src="assets/eu.png" alt="" class="card-img">
+          <div class="card-image" data-aos="zoom-out" data-aos-offset="400"
+          data-aos-easing="ease-in-sine">
+              <img  src="assets/eu.png" alt="" class="card-img">
              
           </div>
         </div>
 
-        <div class="card-content">
-            <div class="social-buttons">
-                <a href="#" class="social-button github">
+        <div class="card-content" data-aos="zoom-out" data-aos-offset="400"
+        data-aos-easing="ease-in-sine">
+            <div class="social-buttons" >
+                <a href="https://github.com/Atosgomes" class="social-button github">
                   <svg class="cf-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="-2.5 0 19 19"><path d="M9.464 17.178a4.506 4.506 0 0 1-2.013.317 4.29 4.29 0 0 1-2.007-.317.746.746 0 0 1-.277-.587c0-.22-.008-.798-.012-1.567-2.564.557-3.105-1.236-3.105-1.236a2.44 2.44 0 0 0-1.024-1.348c-.836-.572.063-.56.063-.56a1.937 1.937 0 0 1 1.412.95 1.962 1.962 0 0 0 2.682.765 1.971 1.971 0 0 1 .586-1.233c-2.046-.232-4.198-1.023-4.198-4.554a3.566 3.566 0 0 1 .948-2.474 3.313 3.313 0 0 1 .091-2.438s.773-.248 2.534.945a8.727 8.727 0 0 1 4.615 0c1.76-1.193 2.532-.945 2.532-.945a3.31 3.31 0 0 1 .092 2.438 3.562 3.562 0 0 1 .947 2.474c0 3.54-2.155 4.32-4.208 4.548a2.195 2.195 0 0 1 .625 1.706c0 1.232-.011 2.227-.011 2.529a.694.694 0 0 1-.272.587z"></path></svg>
                     </a>
-                    <a href="#" class="social-button linkedin">
+                    <a href="https://www.linkedin.com/in/atos-gomes-77921527a/" class="social-button linkedin">
                       <svg viewBox="0 -2 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Icons" stroke="none" stroke-width="1">
                           <g transform="translate(-702.000000, -265.000000)">
@@ -71,18 +78,8 @@
                       </g>
                   </svg>
                 </a>
-                <a href="#" class="social-button facebook">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 310 310" xml:space="preserve">
-              <g id="XMLID_834_">
-                <path id="XMLID_835_" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
-                  c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
-                  V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
-                  C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
-                  c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"></path>
-              </g>
-              </svg>
-                </a>
-                <a href="#" class="social-button instagram">
+              
+                <a href="https://www.instagram.com/devgomesdeoliveira/" class="social-button instagram">
                   <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <g id="Page-1" stroke="none" stroke-width="1">
                       <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
@@ -96,7 +93,8 @@
               </svg>
                 </a>
               </div>
-          <p class="description">Olá! Sou o <strong>Atos</strong>, um entusiasta da tecnologia e apaixonado por criar soluções inovadoras para o mundo digital. Com 28 anos de idade e cursando a faculdade de Desenvolvimento Web, tenho me dedicado ao aprimoramento das minhas habilidades em diversas áreas-chave. <br><br>
+          <p class="description" data-aos="fade-right"  data-aos-offset="450"
+          data-aos-easing="ease-in" d>Olá! Sou o <strong>Atos</strong>, um entusiasta da tecnologia e apaixonado por criar soluções inovadoras para o mundo digital. Com 28 anos de idade e cursando a faculdade de Desenvolvimento Web, tenho me dedicado ao aprimoramento das minhas habilidades em diversas áreas-chave. <br><br>
 
            <strong> Habilidades em Destaque: </strong><br><br>
             
@@ -122,38 +120,45 @@
 
 </div>
     </section>                              
-    <!-- 3 -->
+    <!--! 3 -->
     
     <section class="habilits" id="habilidades">
         <br><br>
-        <h1>Habilidades</h1>
+        <h1 data-aos="zoom-out" data-aos-offset="400"
+        data-aos-easing="ease-in-sine">Habilidades</h1>
         <div class="planodois" >
 <div class="container">
-    <div class="box">
+    <div class="box" data-aos="zoom-out" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <img src="assets/designer-de-web.png" alt="Desenvolvimento de aplicativos">
         <span class="title">Aplicativos web</span>
         <div>
         
-        <p>Design essencial para o sucesso do seu negócio na web e mobile. Garantimos uma primeira impressão marcante e uma identidade única. Priorizamos a experiência do usuário, tornando cada interação intuitiva e agradável, 
+        <p data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Design essencial para o sucesso do seu negócio na web e mobile. Garantimos uma primeira impressão marcante e uma identidade única. Priorizamos a experiência do usuário, tornando cada interação intuitiva e agradável, 
           seja no computador ou no celular.</p>
         
       </div>
     </div>
-    <div class="box">
+    <div class="box" data-aos="zoom-out" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <img class="imgdef" src="assets/design-grafico.png" alt="Web design">
         <div class="def">
             <span class="title" >Web design</span>
-          <p>O design é vital para o êxito do seu negócio, criando uma primeira impressão positiva e fortalecendo a identidade da sua marca. Confie em nós para destacar a singularidade da sua empresa com um design envolvente e 
+          <p data-aos="flip-up" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">O design é vital para o êxito do seu negócio, criando uma primeira impressão positiva e fortalecendo a identidade da sua marca. Confie em nós para destacar a singularidade da sua empresa com um design envolvente e 
             impactante.</p>
           
         </div>
       </div>
-      <div class="box">
+      <div class="box" data-aos="zoom-out" data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <img src="assets/ferramenta-de-corte.png" alt="Edição de videos">
         <span class="title">Edição de video</span>
           <div>
          
-          <p>A edição de vídeo é crucial para destacar a excelência do seu conteúdo. Transformamos ideias em narrativas visualmente envolventes, criando uma experiência única para seu público. Conte conosco para elevar a 
+          <p data-aos="fade-left" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">A edição de vídeo é crucial para destacar a excelência do seu conteúdo. Transformamos ideias em narrativas visualmente envolventes, criando uma experiência única para seu público. Conte conosco para elevar a 
             qualidade e impacto dos seus vídeos.</p>
           
         </div>
@@ -161,30 +166,33 @@
   </div>
     </section>
 </div>               
-<!-- 4 -->
+<!--! 4 -->
 <section class="works" id="trabalhos">
-    <h1>Projetos</h1>
+    <h1 data-aos="zoom-out" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">Projetos</h1>
 
 
    
     
 
 <div class="back">
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper" data-aos="zoom-out" data-aos-offset="350"
+    data-aos-easing="ease-in-sine">
         <div class="swiper-wrapper">
           <div class="swiper-slide">  <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
               <div class="card-image">
-               <img src="assets/plano.png" alt="" class="card-img">
+               <img src="assets/barbeiro.png" alt="" class="card-img">
               </div>
             </div>
   
-            <div class="card-content">
-              <h2 class="name">Projeto -1</h2>
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+              <h2 class="name">Projeto Barbearia</h2>
+              <p class="description">Foi criado uma landing page para uma Barbearia</p>
   
-              <button class="button">ver o site</button>
+              <a href="https://barbeiro-taupe.vercel.app"><button class="button" >ver o site</button></a>
             </div>
   
   
@@ -197,7 +205,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 0</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -215,7 +224,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 1</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -232,7 +242,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 2</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -249,7 +260,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 3</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -266,7 +278,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 4</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -283,7 +296,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 5</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -300,7 +314,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 6</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -317,7 +332,8 @@
               </div>
             </div>
   
-            <div class="card-content">
+            <div class="card-content" data-aos="zoom-out" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h2 class="name">Projeto 7</h2>
               <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quo.</p>
   
@@ -337,61 +353,80 @@
    
 </section>
 
-<!-- 5 -->
+<!-- !5 -->
 
 <section class="contato" id="contato">
-  <h1>Contato</h1>
+  <h1 data-aos="zoom-out" data-aos-offset="400"
+  data-aos-easing="ease-in-sine">Contato</h1>
   <div class="borda">
   <div class="box">
     <div class="contato__content">
       <form action="#">
         <div class="input-box">
           <div class="input-field field">
-            <input type="text" placeholder="Nome completo" id="name" class="item" autocomplete="off">
-            <div class="error-txt"> Nome não pode ficar em branco </div>
+            <input type="text" placeholder="Nome completo" id="name" class="item" autocomplete="off" data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <div class="error-txt" data-aos="fade-right" data-aos-offset="200"
+            data-aos-easing="ease-in-sine"> Nome não pode ficar em branco </div>
           </div>
           <div class="input-field field">
-            <input type="text" placeholder="Email" id="email" class="item" autocomplete="off">
-            <div class="error-txt email"> Email não pode ficar em branco </div>
+            <input type="text" placeholder="Email" id="email" class="item" autocomplete="off" data-aos="fade-left" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <div class="error-txt email" data-aos="fade-left" data-aos-offset="200"
+            data-aos-easing="ease-in-sine"> Email não pode ficar em branco </div>
           </div>
         </div>
 
         <div class="input-box">
           <div class="input-field field">
-            <input type="text" placeholder="Número telefone" id="telefone" class="item" autocomplete="off">
-            <div class="error-txt"> Telefone não pode ficar em branco </div>
+            <input type="text" placeholder="Número telefone" id="telefone" class="item" autocomplete="off" data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <div class="error-txt" data-aos="fade-right" data-aos-offset="200"
+            data-aos-easing="ease-in-sine"> Telefone não pode ficar em branco </div>
           </div>
           <div class="input-field field">
-            <input type="text" placeholder="Assunto" id="subject" class="item" autocomplete="off">
-            <div class="error-txt"> Assunto não pode ficar em branco </div>
+            <input type="text" placeholder="Assunto" id="subject" class="item" autocomplete="off" data-aos="fade-left" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <div class="error-txt"data-aos="fade-left" data-aos-offset="200"
+            data-aos-easing="ease-in-sine"> Assunto não pode ficar em branco </div>
           </div>
         </div>
 
      <div class="textarea-field field">
-      <textarea name="" id="mess" cols="30" rows="10" placeholder="Sua mensagem" class="item" autocomplete="off"></textarea>
-      <div class="error-txt"> Mensagem não pode ficar em branco </div>
+      <textarea name="" id="mess" cols="30" rows="10" placeholder="Sua mensagem" class="item" autocomplete="off" data-aos="zoom-out" data-aos-offset="300"
+      data-aos-easing="ease-in-sine"></textarea >
+      <div class="error-txt" data-aos="zoom-out" data-aos-offset="200"
+      data-aos-easing="ease-in-sine"> Mensagem não pode ficar em branco </div>
      </div>
 
-     <button type="submit">Enviar Mensagem</button>
+     <button type="submit" data-aos="flip-up">Enviar Mensagem</button>
       </form>
     </div>
 </div>
 </div>
 </section>
 </main>
+<!--! Footer -->
 <footer class="footer">
-<div class="footer-text">
-    <p>Copyright & copy; por Codecraft | All rights reserved.</p>
+<div class="footer-text" >
+    <p >Copyright © 2024 by Codecraft | All rights reserved.</p>
 </div>
-<div class="footer-iconTop">
-    <a href=""><i class="bx bx-up-arrow-alt"></i></a>
+<div class="footer-iconTop"  
+>
+    <a href="" ><i class="bx bx-up-arrow-alt"></i></a>
 </div>
 </footer>
+<a data-aos="fade-down" href="https://api.whatsapp.com/send/?phone=5521985238066&text=Gostaria de atendimento!%20&app_absent=0" class="btn-whatsapp" target="_blank">
+  <img src="assets/whatssapp.svg" alt="Botão whatsapp" >
+  <span class="legenda">Agende seu horário</span>
+</a>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="script.js"></script>
 <script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="liza.js"></script>
+<script src="swiper.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="aos.js"></script>
 </html>

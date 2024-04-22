@@ -1,4 +1,19 @@
-  
+  //! navbar hamburguer
+  let menuIcon = document.querySelector('#menu-icon');
+  let navbar = document.querySelector('.navbar');
+
+
+
+  menuIcon.onclick = () => {
+menuIcon.classList.toggle('bx-x');
+navbar.classList.toggle('active');
+  };
+  //! navbar hamburguer
+
+
+
+
+
   let sections = document.querySelectorAll('section');
   let navLinks = document.querySelectorAll('header nav a');
   
@@ -20,4 +35,8 @@
     });
     let header = document.querySelector("header");
     header.classList.toggle('sticky',window.scrollY > 100);
+
+    //! quando clicar no link da navbar remove a navbar ao scrollar
+    menuIcon.classList.remove('bx-x');
+navbar.classList.remove('active');
   };
