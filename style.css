@@ -698,7 +698,7 @@ transition: 1s linear;
 .btn-whatsapp{
   position: fixed;
   bottom: 2.5rem;
-  right: 2rem;
+  right: 5rem;
   z-index: 99;
   }
   .btn-whatsapp img{
