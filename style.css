@@ -999,7 +999,7 @@ html{
   width: 90%;
   border-radius: 25%px;
   background-color: var(--cor-um);
-height: 160vh;
+height: 120vh;
 margin: auto;
 border: 1px solid var(--cor-dois);
 }
@@ -1013,7 +1013,7 @@ form .textarea-field{
   margin: auto;
 }
 .btn-whatsapp{
-right: 5.5rem;
+left: 7rem;
 
 }
 
