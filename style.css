@@ -1013,9 +1013,9 @@ form .textarea-field{
 }
 .btn-whatsapp{
     position: fixed;
-    bottom: 2.5rem;
+   
     right: 10rem;
-    z-index: 99;
+    z-index: 1;
     }
 
 .btn-whatsapp img{
