@@ -1016,13 +1016,13 @@ form .textarea-field{
 .btn-whatsapp{
     position: fixed;
    
-    right: 10rem;
+    right: 8rem;
     z-index: 1;
     }
 
 .btn-whatsapp img{
     width: 5.5rem;
-    transition: transform 0.4s;
+    
 }
 
 .footer{
