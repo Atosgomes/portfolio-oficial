@@ -1002,7 +1002,9 @@ height: 135vh;
 
 
 }
-
+body{
+    overflow-x: hidden;
+}
 
 form .input-box{
   width: 310px;
