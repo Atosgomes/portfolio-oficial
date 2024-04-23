@@ -996,17 +996,16 @@ html{
   font-size: 43%;
 }
 .mim .card{
-  width: 90%;
-  border-radius: 25%px;
-  background-color: var(--cor-um);
-height: 120vh;
-margin: auto;
-border: 1px solid var(--cor-dois);
+  
+  
+height: 135vh;
+
+
 }
 
 
 form .input-box{
-  width: 320px;
+  width: 310px;
 }
 form .textarea-field{
   width: 200px;
@@ -1018,7 +1017,7 @@ left: 7rem;
 }
 
 .btn-whatsapp img{
-    max-width: 5.5rem;
+    width: 5.5rem;
     transition: transform 0.4s;
 }
 
