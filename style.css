@@ -698,7 +698,7 @@ transition: 1s linear;
 .btn-whatsapp{
   position: fixed;
   bottom: 2.5rem;
-  right: 5rem;
+  right: 3rem;
   z-index: 99;
   }
   .btn-whatsapp img{
@@ -1011,7 +1011,12 @@ form .textarea-field{
   width: 200px;
   margin: auto;
 }
-
+.btn-whatsapp{
+    position: fixed;
+    bottom: 2.5rem;
+    right: 1rem;
+    z-index: 99;
+    }
 
 .btn-whatsapp img{
     width: 5.5rem;
